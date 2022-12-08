@@ -157,5 +157,8 @@ function fish_right_prompt
         echo -n ' '(set_color white)'◼'
     end
 
+    # You can pass 0 as the last status when you are not using STATUS or SIGSTATUS
+    # fishline -s 0 -r CLOCK
+
     set_color normal
 end

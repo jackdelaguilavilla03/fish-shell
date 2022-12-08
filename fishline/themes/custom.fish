@@ -4,8 +4,8 @@
 # Color for PWD and FULLPWD segment
 set FLCLR_PWD_BG            000000
 set FLCLR_PWD_FG            93A1A1
-set FLCLR_PWD_BG_HOME       $FLCLR_PWD_BG
-set FLCLR_PWD_FG_HOME       $FLCLR_PWD_FG
+set FLCLR_PWD_BG_HOME       FFBF00
+set FLCLR_PWD_FG_HOME       808080
 set FLCLR_FULLPWD_BG        $FLCLR_PWD_BG
 set FLCLR_FULLPWD_FG        $FLCLR_PWD_FG
 
@@ -44,7 +44,7 @@ set FLCLR_GIT_BG_DETACHED   yellow
 set FLCLR_GIT_FG_DETACHED   black
 
 # Color for CLOCK segment
-set FLCLR_CLOCK_BG          FF8700
+set FLCLR_CLOCK_BG          000000
 set FLCLR_CLOCK_FG          FFFFFF
 
 # Color for USERHOST segment

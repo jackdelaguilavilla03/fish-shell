@@ -1,7 +1,6 @@
-set FLINE_PATH $HOME/.config/fish/fishline
-set -g -x fish_greeting ''
-source $FLINE_PATH/init.fish
+set -g -x fish_greeting 'Welcome Jack'
 
-function fish_prompt
-    fishline -s $status SIGSTATUS JOBS VFISH PWD WRITE N ROOT
+if status is-interactive
+    set FLINE_PATH $HOME/.config/fish/fishline
+    source $FLINE_PATH/init.fish
 end
